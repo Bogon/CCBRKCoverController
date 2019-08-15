@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'CCBRKCoverController_Example' do
+  pod 'CCBRKCoverController', :path => '../'
+
+  target 'CCBRKCoverController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
